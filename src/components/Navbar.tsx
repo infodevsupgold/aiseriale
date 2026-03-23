@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
           <Image
-            src="/Images/logo.png"
+            src="/images/logo.png"
             alt="AI Seriale"
             width={180}
             height={45}

@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: [
-      { url: "/Images/favicon.png", type: "image/png" },
+      { url: "/images/favicon.png", type: "image/png" },
     ],
-    apple: "/Images/favicon.png",
+    apple: "/images/favicon.png",
   },
   openGraph: {
     title: "AI Seriale | Percorso di Formazione AI",

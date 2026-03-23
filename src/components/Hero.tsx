@@ -102,7 +102,7 @@ export default function Hero() {
           className="flex justify-center mb-8"
         >
           <Image
-            src="/Images/favicon.png"
+            src="/images/favicon.png"
             alt="AI Seriale"
             width={80}
             height={80}

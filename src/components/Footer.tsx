@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Image
-              src="/Images/logo.png"
+              src="/images/logo.png"
               alt="AI Seriale"
               width={160}
               height={40}
