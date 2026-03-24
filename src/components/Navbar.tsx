@@ -37,9 +37,9 @@ export default function Navbar() {
           <Image
             src="/images/logo.png"
             alt="AI Seriale"
-            width={180}
-            height={45}
-            className="h-10 w-auto"
+            width={540}
+            height={135}
+            className="h-[120px] -my-[40px] w-auto"
             priority
           />
         </a>

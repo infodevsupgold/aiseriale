@@ -13,9 +13,9 @@ export default function Footer() {
             <Image
               src="/images/logo.png"
               alt="AI Seriale"
-              width={160}
-              height={40}
-              className="h-9 w-auto mb-4"
+              width={480}
+              height={120}
+              className="h-[108px] -mt-8 -mb-4 w-auto"
             />
             <p className="text-gray-500 leading-relaxed max-w-sm">
               Il percorso di formazione AI di Serial Srl. Impara
@@ -80,24 +80,23 @@ export default function Footer() {
           className="pt-8 border-t border-[var(--card-border)] flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-600 text-sm">
-            &copy; {new Date().getFullYear()} Serial S.r.l. Tutti i diritti
-            riservati.
+            &copy; 2025 Serial S.r.l. Tutti i diritti riservati.
           </p>
           <div className="flex gap-6 text-sm">
             <a
-              href="#"
+              href="/privacy-policy"
               className="text-gray-600 hover:text-gray-400 transition-colors"
             >
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="/termini-servizio"
               className="text-gray-600 hover:text-gray-400 transition-colors"
             >
               Termini di Servizio
             </a>
             <a
-              href="#"
+              href="/cookie-policy"
               className="text-gray-600 hover:text-gray-400 transition-colors"
             >
               Cookie Policy
