@@ -14,6 +14,8 @@ export default function ContactForm() {
     messaggio: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -23,14 +25,37 @@ export default function ContactForm() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: integrate with backend/email service
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Errore nell'invio");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Errore nell'invio della richiesta. Riprova più tardi."
+      );
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <section id="contatti" className="py-32 relative">
+    <section id="contatti" className="py-32 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[var(--accent)] rounded-full blur-[250px] opacity-5" />
 
       <div className="max-w-3xl mx-auto px-6 relative z-10">
@@ -234,11 +259,18 @@ export default function ContactForm() {
                 />
               </div>
 
+              {error && (
+                <div className="mb-6 p-4 rounded-xl border border-red-500/30 bg-red-500/10 text-red-400 text-sm text-center">
+                  {error}
+                </div>
+              )}
+
               <button
                 type="submit"
-                className="w-full py-4 rounded-full bg-gradient-to-r from-[var(--accent)] to-[var(--accent-cyan)] text-white font-bold text-lg hover:shadow-[0_0_40px_rgba(108,99,255,0.5)] transition-all duration-300"
+                disabled={loading}
+                className="w-full py-4 rounded-full bg-gradient-to-r from-[var(--accent)] to-[var(--accent-cyan)] text-white font-bold text-lg hover:shadow-[0_0_40px_rgba(108,99,255,0.5)] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Prenota la tua consulenza gratuita
+                {loading ? "Invio in corso..." : "Prenota la tua consulenza gratuita"}
               </button>
 
               <p className="text-gray-600 text-xs text-center mt-4">

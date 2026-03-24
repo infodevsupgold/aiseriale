@@ -74,7 +74,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="programma" className="py-32 relative">
+    <section id="programma" className="py-32 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[var(--accent)] rounded-full blur-[250px] opacity-5" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">

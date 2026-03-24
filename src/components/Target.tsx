@@ -35,7 +35,7 @@ const targets = [
 
 export default function Target() {
   return (
-    <section id="target" className="py-32 relative">
+    <section id="target" className="py-32 relative overflow-hidden">
       <div className="absolute bottom-0 right-0 w-[600px] h-[400px] bg-[var(--accent-cyan)] rounded-full blur-[250px] opacity-5" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">

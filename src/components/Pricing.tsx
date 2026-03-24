@@ -67,7 +67,7 @@ const plans = [
 
 export default function Pricing() {
   return (
-    <section id="prezzi" className="py-32 relative bg-grid">
+    <section id="prezzi" className="py-32 relative bg-grid overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-[var(--accent)] rounded-full blur-[300px] opacity-5" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">

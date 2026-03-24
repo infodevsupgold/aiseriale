@@ -169,7 +169,7 @@ export default function Curriculum() {
   const currentLevel = levels[activeLevel];
 
   return (
-    <section className="py-32 relative bg-grid">
+    <section className="py-32 relative bg-grid overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
