@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Riceverò un certificato?",
-    a: "Sì, al completamento del corso e del progetto finale riceverai un certificato di completamento rilasciato da Serial Srl.",
+    a: "Sì, al completamento del corso e del progetto finale riceverai un certificato di completamento rilasciato da Master Mind Service and Consulting Srls.",
   },
   {
     q: "Posso pagare a rate?",

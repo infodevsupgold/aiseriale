@@ -9,14 +9,15 @@ export default function PrivacyPolicy() {
   return (
     <LegalPage title="Privacy Policy">
       <p>
-        <strong>Ultimo aggiornamento:</strong> 25 marzo 2025
+        <strong>Ultimo aggiornamento:</strong> 20 novembre 2026
       </p>
 
       <p>
-        La presente informativa sulla privacy descrive come Serial S.r.l. (di
-        seguito &quot;noi&quot;, &quot;nostro&quot; o &quot;Società&quot;), con
-        sede legale in Via Gualtiero Serafino 20, Roma (RM), C.F. e P.IVA
-        18246331005, raccoglie, utilizza e protegge i dati personali degli
+        La presente informativa sulla privacy descrive come Master Mind Service
+        and Consulting S.r.l.s. (di seguito &quot;noi&quot;, &quot;nostro&quot;
+        o &quot;Società&quot;), con sede legale in Via Beata Vergine delle
+        Grazie 8/C, Montegridolfo (RN), C.F. e P.IVA 04653420408, raccoglie,
+        utilizza e protegge i dati personali degli
         utenti del sito web aiseriale.it (di seguito &quot;Sito&quot;), in
         conformità al Regolamento (UE) 2016/679 (GDPR) e al D.Lgs. 196/2003
         come modificato dal D.Lgs. 101/2018.
@@ -24,8 +25,9 @@ export default function PrivacyPolicy() {
 
       <h2>1. Titolare del trattamento</h2>
       <p>
-        Il Titolare del trattamento è Serial S.r.l., Via Gualtiero Serafino 20,
-        Roma (RM), C.F. e P.IVA 18246331005.
+        Il Titolare del trattamento è Master Mind Service and Consulting
+        S.r.l.s., Via Beata Vergine delle Grazie 8/C, Montegridolfo (RN), C.F. e
+        P.IVA 04653420408.
         <br />
         Email di contatto:{" "}
         <a href="mailto:info@aiseriale.it">info@aiseriale.it</a>

@@ -9,14 +9,15 @@ export default function TerminiServizio() {
   return (
     <LegalPage title="Termini e Condizioni di Servizio">
       <p>
-        <strong>Ultimo aggiornamento:</strong> 25 marzo 2025
+        <strong>Ultimo aggiornamento:</strong> 20 novembre 2026
       </p>
 
       <p>
         I presenti Termini e Condizioni di Servizio (di seguito
         &quot;Termini&quot;) regolano l&apos;utilizzo del sito web aiseriale.it
-        e dei servizi formativi offerti da Serial S.r.l., con sede legale in Via
-        Gualtiero Serafino 20, Roma (RM), C.F. e P.IVA 18246331005 (di seguito
+        e dei servizi formativi offerti da Master Mind Service and Consulting
+        S.r.l.s., con sede legale in Via Beata Vergine delle Grazie 8/C,
+        Montegridolfo (RN), C.F. e P.IVA 04653420408 (di seguito
         &quot;Società&quot;).
       </p>
 

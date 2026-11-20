@@ -18,7 +18,8 @@ export default function Footer() {
               className="h-[108px] -mt-8 -mb-4 w-auto"
             />
             <p className="text-gray-500 leading-relaxed max-w-sm">
-              Il percorso di formazione AI di Serial Srl. Impara
+              Il percorso di formazione AI di Master Mind Service and
+              Consulting Srls. Impara
               l&apos;intelligenza artificiale con un approccio pratico e
               orientato al risultato.
             </p>
@@ -59,13 +60,13 @@ export default function Footer() {
                   info@aiseriale.it
                 </a>
               </li>
-              <li>Via Gualtiero Serafino 20</li>
-              <li>Roma (RM)</li>
+              <li>Via Beata Vergine delle Grazie 8/C</li>
+              <li>Montegridolfo (RN)</li>
               <li className="pt-2">
                 <span className="text-gray-600">
-                  Serial S.r.l.
+                  Master Mind Service and Consulting S.r.l.s.
                   <br />
-                  C.F. e P.IVA 18246331005
+                  C.F. e P.IVA 04653420408
                 </span>
               </li>
             </ul>
@@ -80,7 +81,8 @@ export default function Footer() {
           className="pt-8 border-t border-[var(--card-border)] flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-600 text-sm">
-            &copy; 2025 Serial S.r.l. Tutti i diritti riservati.
+            &copy; 2025 Master Mind Service and Consulting S.r.l.s. Tutti i
+            diritti riservati.
           </p>
           <div className="flex gap-6 text-sm">
             <a

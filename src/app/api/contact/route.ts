@@ -79,7 +79,7 @@ export async function POST(request: Request) {
             o scriverci a <a href="mailto:info@aiseriale.it" style="color: #6c63ff;">info@aiseriale.it</a>.
           </p>
           <p style="color: #555; line-height: 1.6;">A presto!</p>
-          <p style="color: #555;"><strong>Il team di AI Seriale</strong><br/>Serial S.r.l.</p>
+          <p style="color: #555;"><strong>Il team di AI Seriale</strong><br/>Master Mind Service and Consulting S.r.l.s.</p>
         </div>
       `,
       replyTo: "info@aiseriale.it",

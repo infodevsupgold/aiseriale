@@ -45,8 +45,9 @@ export default function LegalPage({
       {/* Footer */}
       <footer className="border-t border-[var(--card-border)] bg-[#030308]">
         <div className="max-w-4xl mx-auto px-6 py-8 text-center text-gray-600 text-sm">
-          &copy; 2025 Serial S.r.l. — C.F. e P.IVA 18246331005 — Via Gualtiero
-          Serafino 20, Roma (RM)
+          &copy; 2025 Master Mind Service and Consulting S.r.l.s. — C.F. e
+          P.IVA 04653420408 — Via Beata Vergine delle Grazie 8/C, Montegridolfo
+          (RN)
         </div>
       </footer>
     </div>

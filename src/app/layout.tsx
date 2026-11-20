@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Seriale | Percorso di Formazione AI by Serial Srl",
+  title: "AI Seriale | Percorso di Formazione AI by Master Mind Service and Consulting Srls",
   description:
-    "Diventa esperto di Intelligenza Artificiale con il percorso formativo di Serial Srl. Impara prompt engineering, automazione AI, machine learning e molto altro.",
+    "Diventa esperto di Intelligenza Artificiale con il percorso formativo di Master Mind Service and Consulting Srls. Impara prompt engineering, automazione AI, machine learning e molto altro.",
   keywords: [
     "formazione AI",
     "corso intelligenza artificiale",
     "prompt engineering",
     "machine learning",
-    "Serial Srl",
+    "Master Mind Service and Consulting Srls",
     "AI Italia",
   ],
   icons: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI Seriale | Percorso di Formazione AI",
     description:
-      "Diventa esperto di Intelligenza Artificiale con Serial Srl",
+      "Diventa esperto di Intelligenza Artificiale con Master Mind Service and Consulting Srls",
     type: "website",
     url: "https://aiseriale.it",
   },

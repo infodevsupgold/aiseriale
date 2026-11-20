@@ -9,14 +9,15 @@ export default function CookiePolicy() {
   return (
     <LegalPage title="Cookie Policy">
       <p>
-        <strong>Ultimo aggiornamento:</strong> 25 marzo 2025
+        <strong>Ultimo aggiornamento:</strong> 20 novembre 2026
       </p>
 
       <p>
         La presente Cookie Policy spiega cosa sono i cookie, come vengono
         utilizzati sul sito aiseriale.it (di seguito &quot;Sito&quot;) gestito
-        da Serial S.r.l., con sede legale in Via Gualtiero Serafino 20, Roma
-        (RM), C.F. e P.IVA 18246331005, e come l&apos;Utente può gestire le
+        da Master Mind Service and Consulting S.r.l.s., con sede legale in Via
+        Beata Vergine delle Grazie 8/C, Montegridolfo (RN), C.F. e P.IVA
+        04653420408, e come l&apos;Utente può gestire le
         proprie preferenze.
       </p>
 
